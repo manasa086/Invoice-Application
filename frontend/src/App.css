@@ -1,0 +1,512 @@
+.table
+{
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+  
+}
+.button3{
+  font-family: 'Courgette', cursive; 
+  position: relative;
+  left:200px;
+  top:-18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header{
+  font-size: 28px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+@media screen and (max-width:400px){
+  .button3{
+    font-family: 'Courgette', cursive; 
+    position: relative;
+    top: -35px;
+    left: 200px;
+    width:120px;
+    font-size: 14px!important;
+    display: flex;
+    flex-direction: row ;
+    
+
+    font-weight: bold!important;
+  }
+  .header{
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 5px;
+  }
+  .button2{
+    font-family: 'Courgette', cursive; 
+    position: relative;
+    left:40px;
+    top:0px;
+    width:100px;
+    display: flex;
+    flex-direction: row ;
+    width:120px;
+    font-size: 14px!important;
+    font-weight: bold!important;
+    
+  }
+}
+.button2
+{
+  position: relative;
+  margin-top:0px;
+  top:20px;
+  font-family: 'Courgette', cursive;
+  left:20px;
+}
+.top2
+{
+  position: relative;
+  top:-20px!important;
+}
+.btn5{
+  position: relative;
+  top:55px;
+}
+.btn6{
+  position: relative;
+  top:55px;
+}
+.Post
+{
+  max-width: 800px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+.tab2
+{
+  position: relative;
+  top: -30px !important;
+}
+.tab1{
+  position: relative;
+  top:-30px;
+}
+
+.btn3
+{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 35px;
+  border:1px solid lightgray ;
+  border-radius:5px ;
+}
+.table2
+{
+  text-align: right;
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+}
+.header-table
+{
+  text-align: right;
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+}
+.header-image{
+  width:100px;
+  height: 100px;
+}
+@media screen and (max-width:550px){
+  .header-table
+{
+  text-align: right;
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+  width:600px;
+}
+.header-image{
+  width: 100px!important;
+  height: 100px!important;
+}
+}
+.table3
+{
+  position: relative;
+  top:10px;
+}
+
+.text-center
+{
+  font-family: 'Courgette', cursive; 
+  color:white;
+}
+.button
+{
+  font-family: 'Courgette', cursive; 
+  position: relative;
+  left:100px;
+  top:10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.b5
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.b
+{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.b1
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-center
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.left
+{
+  padding-left: 20px;
+}
+.link
+{
+  text-align: center;
+  padding-left: 40%;
+  text-decoration: none;
+}
+.link1
+{
+  text-align: center;
+  padding-left: 5%;
+  text-decoration: none;
+}
+.b2
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.b3
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.b4
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.nav
+{
+  font-size: 21px!important;
+}
+.center
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+  text-align: center;
+
+}
+.heading{
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+}
+.blink{
+    animation:blinkingText 1.2s infinite!important;
+    text-align: center;
+    position: relative;
+    top:100px;
+    color:white;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;}
+}
+
+.top1
+{
+  padding-top: 10px;
+}
+h1{
+  margin-top: 20px!important;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color:white;
+  
+}
+.aroundDiv
+{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width:600px;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+@media screen and (max-width:800px){
+  .aroundDiv1
+{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px!important;
+  width:600px;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+  .aroundDiv
+{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  width:450px;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+Label{
+  position: relative!important;
+  left:20px;
+  
+}
+input{
+  width: 400px !important;
+  position: relative!important;
+  left:20px;
+}
+}
+@media screen and (max-width:800px){
+  .aroundDiv1
+  {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px!important;
+    width:480px!important;
+    font-family: 'Courgette', cursive;
+    background-color: rgba(242, 241, 239, 1);
+    border:5px solid  rgba(242, 241, 239, 1);
+    box-shadow: inset 5px 5px 20px 10px lightgrey;
+  
+   
+  }
+}
+@media screen and (max-width:480px){
+  .header{
+    font-size: 20px;
+    margin-top: 17px;
+    margin-left: 5px;
+  }
+  .btn3
+{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 80px;
+  height: 35px;
+  border:1px solid lightgray ;
+  border-radius:5px ;
+}
+  .aroundDiv1
+  {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px!important;
+    width:340px!important;
+    font-family: 'Courgette', cursive;
+    background-color: rgba(242, 241, 239, 1);
+    border:5px solid  rgba(242, 241, 239, 1);
+    box-shadow: inset 5px 5px 20px 10px lightgrey;
+  
+   
+  }
+  .aroundDiv
+{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  width:300px;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+Label{
+  position: relative!important;
+  left:20px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+input{
+  width: 250px !important;
+  position: relative!important;
+  left:20px;
+}
+}
+.pull-right
+{
+  margin-right: 0px;
+  margin-top: -60px;
+  max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+  
+}
+.top
+{
+  margin-top: 30px;
+}
+.image1{
+  position: relative;
+  top:15px;
+}
+.pull-right1
+{
+  font-size:25px;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: 'Dancing Script', cursive;
+  margin-right: -100px;
+  color:rgb(32, 13, 56);
+  margin-top: 60px;
+  
+}
+.left
+{
+  max-width: 800px;
+  width: 100%;
+  margin-top: -200px;
+  font-family: 'Courgette', cursive;
+  display: table;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+.head
+{
+  background-color: rgb(100, 160, 230);
+  border: 2px solid rgb(100, 160, 230)!important;
+}
+.tr1
+{
+  
+  border-top: none!important;
+
+  border-top: 2px solid rgb(100, 160, 230)!important;
+
+}
+.tabb
+{
+  position: relative;
+  top:100px;
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+}
+.tab
+{
+  background-color: rgba(242, 241, 239, 1);
+  font-family: 'Courgette', cursive;
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+}
+.aroundDiv3
+{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+.anchor{
+  color:white!important;
+  cursor: pointer;
+  font-family: 'Courgette', cursive;
+  display: flex;
+  justify-content: center;
+}
+h4
+{
+  text-align: center;
+  text-decoration:underline;
+  font-style: italic;
+  color:white;
+}
+.invoiceHeading{
+
+  text-align: center;
+  text-decoration:underline;
+  font-style: italic;
+  color:black!important;
+
+}
+.aroundDiv1
+{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  width:600px;
+  font-family: 'Courgette', cursive;
+  background-color: rgba(242, 241, 239, 1);
+  border:5px solid  rgba(242, 241, 239, 1);
+  box-shadow: inset 5px 5px 20px 10px lightgrey;
+
+ 
+}
+@media screen and (max-width:480px){
+  
+  .btn3
+{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 70px;
+  height: 35px;
+  border:1px solid lightgray ;
+  border-radius:5px ;
+  font-size: 15px;
+}
+}
